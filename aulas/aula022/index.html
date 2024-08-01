@@ -7,13 +7,28 @@
     <style>
         div{
             display: inline-block;
+            border:  2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            width: 150px;
+            height: 150px;
 
+        }
+        
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, rgb(255, 0, 0));
+        }
+        div#q3{
+            background-image: url(imagens/pattern003.png);
         }
     </style>
 </head>
 <body>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
 </body>
 </html>
